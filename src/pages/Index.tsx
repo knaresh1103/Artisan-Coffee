@@ -142,7 +142,7 @@ const Index = () => {
                 bringing you the finest beans from around the world.
               </p>
               <Link
-                to="/about"
+                to="/OurStory"
                 className="inline-flex items-center text-coffee-primary hover:text-coffee-dark transition-colors duration-200"
               >
                 Learn More <ArrowRight size={20} className="ml-2" />
