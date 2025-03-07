@@ -8,14 +8,14 @@ const products = [
     id: 1,
     name: "Ethiopian Yirgacheffe",
     description: "Bright, floral notes with citrus undertones",
-    image: "https://images.unsplash.com/photo-1587734361993-0497ffe15f44",
+    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     details: "Our Ethiopian Yirgacheffe is sourced from small-scale farmers in the Gedeo Zone. This light-roasted coffee offers an elegant, tea-like body with distinctive floral notes, complemented by bright citrus undertones."
   },
   {
     id: 2,
     name: "Colombian Supremo",
     description: "Full-bodied with caramel sweetness",
-    image: "https://images.unsplash.com/photo-1587734370202-5295d152f832",
+    image: "https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
     details: "Grown in the high-altitude regions of Colombia, our Supremo beans deliver a rich, full-bodied flavor profile with notes of caramel and a subtle nutty finish."
   },
   {
