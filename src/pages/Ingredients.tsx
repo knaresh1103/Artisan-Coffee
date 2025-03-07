@@ -6,21 +6,21 @@ const ingredients = [
   {
     name: "Arabica Beans",
     description: "Premium Arabica beans sourced from high-altitude regions, known for their smooth, complex flavor profiles.",
-    image: "https://images.unsplash.com/photo-1587734361993-0497ffe15f44",
+    image: "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     icon: Coffee,
     highlight: "Grown at 4,000-6,000 feet altitude"
   },
   {
     name: "Robusta Beans",
     description: "Selected Robusta beans that add depth and crema to our espresso blends.",
-    image: "https://images.unsplash.com/photo-1587734370202-5295d152f832",
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     icon: Award,
     highlight: "2x more caffeine than Arabica"
   },
   {
     name: "Spring Water",
     description: "Filtered spring water with optimal mineral content for the perfect extraction.",
-    image: "https://images.unsplash.com/photo-1589396575653-c09c794ff6a6",
+    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     icon: Droplet,
     highlight: "Perfect mineral balance"
   }
