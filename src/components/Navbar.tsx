@@ -40,16 +40,19 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                to={link.path}
-                className="font-inter text-coffee-dark hover:text-coffee-primary transition-colors duration-200"
-              >
-                {link.name}
-              </Link>
-            ))}
-          </div>
+  {navLinks.map((link) => (
+    <Link
+      key={link.name}
+      to={link.path}
+      className={`font-inter transition-colors duration-200 ${
+        isScrolled ? 'text-coffee-dark' : 'text-white'
+      } hover:text-coffee-primary`}
+    >
+      {link.name}
+    </Link>
+  ))}
+</div>
+
 
           {/* Mobile Navigation Button */}
           <div className="md:hidden">
