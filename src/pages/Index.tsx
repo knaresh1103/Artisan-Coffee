@@ -68,7 +68,24 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/40" />
-        <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 text-center px-6 sm:px-8 lg:px-10">
+  {/* Glass Effect Container */}
+  <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-lg px-8 py-12 max-w-2xl mx-auto">
+    <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl text-white mb-6 animate-fadeIn">
+      Crafting Perfect Moments,
+      <br />
+      One Cup at a Time
+    </h1>
+    <p className="font-inter text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-slideUp">
+      Experience the art of coffee making with our carefully selected beans
+      and artisanal brewing methods.
+    </p>
+    <button className="mt-6 px-6 py-3 bg-coffee-primary text-white font-semibold rounded-lg hover:bg-coffee-dark transition duration-300">
+      Explore Our Coffee
+    </button>
+  </div>
+</div>
+
           <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl text-white mb-6 animate-fadeIn">
             Crafting Perfect Moments,
             <br />
