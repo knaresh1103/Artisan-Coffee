@@ -12,7 +12,6 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import Ingredients from "./pages/Ingredients";
 import Locations from "./pages/Locations";
-import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Footer from "./components/Footer";
 
@@ -35,7 +34,6 @@ const App = () => (
               <Route path="/blog/:id" element={<BlogPost />} />
               <Route path="/ingredients" element={<Ingredients />} />
               <Route path="/locations" element={<Locations />} />
-              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
