@@ -35,7 +35,7 @@ const OurStory = () => {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <img 
-              src="/coffee-shop.jpg" 
+              href="https://images.unsplash.com/photo-1521017432531-fbd92d768814" 
               alt="Our coffee shop" 
               className="absolute inset-0 w-full h-full object-cover"
             />
