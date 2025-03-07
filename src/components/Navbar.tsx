@@ -34,7 +34,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center">
-            <span className="font-playfair text-2xl font-bold text-coffee-dark">
+            <span
+              className={`font-playfair text-2xl font-bold transition-colors duration-200 ${
+                isHomePage && !isScrolled ? 'text-white' : 'text-coffee-dark'
+              }`}
+            >
               Artisan Coffee
             </span>
           </Link>
