@@ -66,7 +66,7 @@ const Index = () => {
     <div className="min-h-screen bg-coffee-secondary/10">
       {/* Hero Section with new background */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1521017432531-fbd92d768814')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
           <h1 className="font-playfair text-4xl md:text-6xl lg:text-7xl text-white mb-6 animate-fadeIn">
